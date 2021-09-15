@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: orange;
+}
+h1{
+    font-size: 4rem;
+    text-align: center;
+}
+.left{
+    position: fixed;
+    top: 25%;
+    left: 6%;
+    font-size: 1.6em;
+}
+.right{
+    position: fixed;
+    top: -12%;
+    right: 6%;
+    z-index: -1000000;
+    width: 38%;
+}
+@media screen and (max-width: 800px) {
+    h1{
+        font-size: 4rem;
+        text-align: center;
+    }
+    .left{
+        position: fixed;
+        top: 25%;
+        left: 6%;
+        font-size: 1.6em;
+    }
+    .right{
+        position: fixed;
+        top: -12%;
+        right: 6%;
+        z-index: -1000000;
+        width: 38%;
+    }
+}
